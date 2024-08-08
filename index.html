@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon - Cards</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/img/pokebola.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <img src="./src/img/pokebola.png" alt="pokebola" class="pokebola">
+        <h1 class="titulo">Pokémon</h1>
+    </header>
+
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar">
+            <img src="./src/img/seta.png" alt="voltar" id="seta-voltar">
+        </button>
+
+        <ul class="lista-pokemons">
+            <li class="cartao fundo-1 selecionada">
+                <div class="informacoes">
+                    <h2 class="nome">Mewtwo</h2>
+                    <p class="vida">HP 1200</p>
+                </div>   
+                <div class="conteiner-img">
+                    <img src="./src/img/mewtwo.png" alt="Mewtwo" class="img-pokemon">
+
+                </div>        
+                <div class="descricao scrollbox">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ullam dolor culpa id unde
+                    qui alias a corporis, magnam illo neque possimus deleniti error dolores sunt, optio aliquam
+                    officiis quaerat?</p>    
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>    
+                <div class="conteiner-img">
+                    <img src="./src/img/charizard.png" alt="Charizard" class="img-pokemon">
+
+                </div>       
+                <div class="descricao scrollbox">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ullam dolor culpa id unde
+                    qui alias a corporis, magnam illo neque possimus deleniti error dolores sunt, optio aliquam
+                    officiis quaerat?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ullam dolor culpa id unde
+                    qui alias a corporis, magnam illo neque possimus deleniti error dolores sunt, optio aliquam
+                    officiis quaerat?</p>    
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 500</p>
+                </div>
+                <div class="conteiner-img">
+                    <img src="./src/img/pikachu.png" alt="Pikachu" class="img-pokemon">
+
+                </div>    
+                <div class="descricao scrollbox">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, ullam dolor culpa id unde
+                    qui alias a corporis, magnam illo neque possimus deleniti error dolores sunt, optio aliquam
+                    officiis quaerat?</p>    
+                </div>
+            </li>
+        </ul>
+        <button class="btn-seta">
+            <img src="./src/img/seta.png" alt="avançar" id="seta-avancar">
+        </button>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
